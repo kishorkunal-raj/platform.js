@@ -30,7 +30,18 @@ matrix:
       env:
     - node_js: 12
       env:
-
+    - node_js: 6
+      arch: ppc64le
+      env:
+    - node_js: 8
+      arch: ppc64le
+      env:
+    - node_js: 10
+      arch: ppc64le
+      env:
+    - node_js: 12
+      arch: ppc64le
+      env:
 git:
   depth: 10
 
